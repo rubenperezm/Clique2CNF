@@ -52,7 +52,7 @@ void reducer(Graph& G, string pathOutput, size_t k){
 
     ofstream f(pathOutput);
     if(f.is_open()){
-        f << "c CNF Reduction" << endl;
+        f << "c Graph to CNF reduction " << endl;
         f << "p cnf " << nVariables << " " << nClauses;
         f << str;
 

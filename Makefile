@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++14 -Wall -O3
+CXXFLAGS = -std=c++14 -Wall -O3 -w
 
 EXES = main
 OBJS = ${EXES:=.o}
@@ -15,4 +15,4 @@ run:
 ${OBJS}: reducer.hpp graph.hpp
 
 clean:
-	${RM} ${EXES} ${OBJS} core *~
+	${RM} ${EXES} ${OBJS} subgraph*.txt *.cnf core *~

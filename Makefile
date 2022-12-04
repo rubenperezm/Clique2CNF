@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS = -std=c++14 -Wall -O3 -w
+CXXFLAGS = -std=c++14 -Wall -O3
 
 EXES = main
 OBJS = ${EXES:=.o}
